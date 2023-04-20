@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/api/proxy"
+      "destination": "https://chatgpt-jiezi-mu.vercel.app/$1"
     },
     { "source": "/:path*", "destination": "/index.html" }
   ]
